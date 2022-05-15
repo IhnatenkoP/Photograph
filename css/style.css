@@ -54,10 +54,11 @@ header nav ul li:last-of-type a{
     background-image: url("../images/image.jpg");
     background-size: cover;
     height: 87vh;
+    position: relative;
+    padding-bottom: 71px;
  }
 .main_banner h3{
     font-family: 'Poppins';
-
     font-size: 14px;
     line-height: 20px;
     text-align: center;
@@ -81,4 +82,211 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
     max-width: 580px;
     margin: auto;
+}
+.main_banner ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.main_banner ul li {
+    font-family: 'Poppins';
+    line-height: 12px;
+    font-size: 12px;
+    margin-left: 16px;
+    color: white;
+}
+.main_banner ul li:before{
+    content: "";
+    display: inline-block;
+    background-image: url('../images/icones/icon3.svg');
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 6px;
+}
+.main_banner ul li:nth-child(2):before {
+    background-image: url('../images/icones/icon2.svg');
+}
+.main_banner ul li:nth-child(3):before {
+    background-image: url('../images/icones/icon.svg');
+    margin-right: 7px;
+    width:32px ;
+}
+.main_banner ul li:last-of-type:before {
+    background-image: url('../images/icones/icon4.svg');
+    margin-right: 5px;
+    width:10px ;
+}
+.what_we_do{
+    background-color: black;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+.what_we_do h2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.what_we_do p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    color: #C0C0C0;
+}
+.text-center{
+    text-align: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.what_we_do .item{
+    max-width: 575px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.what_we_do .item img{
+    display: block;
+    width: 100%;
+}
+
+.what_we_do .container{
+    max-width: 1168px;
+}
+
+.what_we_do .item .description{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+.description h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.description p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-bottom: 30px;
+}
+.description a{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 5px 10px 5px 4px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+}
+.description a:before{
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 14px;
+    margin-right: 6px;
+
+}
+.sunset{
+    background-image: url("../images/sunset.jpg");
+    background-size: cover;
+    height: 600px;
+    position: relative;
+    padding-bottom: 71px;
+    align-items: center;
+    display: flex;
+    justify-content: end;
+}
+.sunset ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.sunset ul li {
+    font-family: 'Poppins';
+    line-height: 12px;
+    font-size: 12px;
+    margin-left: 16px;
+    color: white;
+}
+.sunset ul li:before{
+    content: "";
+    display: inline-block;
+    background-image: url('../images/icones/icon3.svg');
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 6px;
+}
+.sunset ul li:nth-child(2):before {
+    background-image: url('../images/icones/icon2.svg');
+}
+.sunset ul li:nth-child(3):before {
+    background-image: url('../images/icones/icon.svg');
+    margin-right: 7px;
+    width:32px ;
+}
+.sunset ul li:last-of-type:before {
+    background-image: url('../images/icones/icon4.svg');
+    margin-right: 5px;
+    width: 10px;
+}
+.sunset h3 {
+    height: 20px;
+    left: 0%;
+    right: 31.33%;
+    top: calc(50% - 20px/2 - 30px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.sunset p{
+    height: 60px;
+    left: 0%;
+    right: 0.67%;
+    top: calc(50% - 60px/2 + 10px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.sunset .container{
+    max-width: 287px;
+    margin: inherit;
+    padding-right: 62px;
 }
