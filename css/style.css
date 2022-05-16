@@ -7,7 +7,7 @@ header {
     padding: 24px 0;
 
 }
-.container{
+.container {
     max-width: 1200px;
     margin: auto;
 }
@@ -55,8 +55,16 @@ header nav ul li:last-of-type a{
     background-size: cover;
     height: 87vh;
     position: relative;
-    padding-bottom: 71px;
+    padding-bottom: 41px;
+    align-items: end;
+    justify-content: center;
+    display: flex;
+
  }
+.main_banner .container{
+    margin: inherit;
+}
+
 .main_banner h3{
     font-family: 'Poppins';
     font-size: 14px;
@@ -447,4 +455,96 @@ header nav ul li:last-of-type a{
     max-width: 287px;
     margin: inherit;
     padding-right: 62px;
+}
+.photo {
+    background-color: black;
+    background-size: cover;
+    height: 540px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content:end;
+}
+.photo ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.photo ul li {
+    font-family: 'Poppins';
+    line-height: 12px;
+    font-size: 12px;
+    margin-left: 16px;
+    color: white;
+}
+.photo ul li:before{
+    content: "";
+    display: inline-block;
+    background-image: url('../images/icones/icon3.svg');
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    top: 6px;
+}
+.photo ul li:nth-child(2):before {
+    background-image: url('../images/icones/icon2.svg');
+}
+.photo ul li:nth-child(3):before {
+    background-image: url('../images/icones/icon.svg');
+    margin-right: 7px;
+    width:32px ;
+}
+.photo ul li:last-of-type:before {
+    background-image: url('../images/icones/icon4.svg');
+    margin-right: 5px;
+    width: 10px;
+}
+.photo div h5{
+    height: 20px;
+    left: 6.67%;
+    right: 70.67%;
+    top: calc(50% - 20px/2 - 87px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #C0C0C0;
+}
+.photo div h3{
+    height: 32px;
+    left: 6.67%;
+    right: 42.83%;
+    top: calc(50% - 32px/2 - 55px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.photo div p{
+    height: 80px;
+    left: 6.67%;
+    right: 7.67%;
+    top: calc(50% - 80px/2 + 15px);
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.photo img {
+   padding-left: 100px;
 }
