@@ -504,10 +504,7 @@ header nav ul li:last-of-type a{
     width: 10px;
 }
 .photo div h5{
-    height: 20px;
-    left: 6.67%;
-    right: 70.67%;
-    top: calc(50% - 20px/2 - 87px);
+
 
     font-family: 'Poppins';
     font-style: normal;
@@ -548,3 +545,68 @@ header nav ul li:last-of-type a{
 .photo img {
    padding-left: 100px;
 }
+.partners{
+    max-height: 500px;
+    background-color: black;
+    background-size: cover;
+    padding-top: 120px;
+padding-bottom: 100px;
+    text-align: center;
+}
+
+
+.partners_h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.partners_p{
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 82px;
+}
+.touch {
+    max-height: 414px;
+    padding-top: 113px;
+    padding-bottom: 108px;
+    background-color: black;
+    background-size: cover;
+    text-align: center;
+
+
+}
+.touch h2{
+    font-family: 'Poppins';
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+
+    padding-bottom: 15px;
+}
+.touch p{
+    font-family: 'Poppins';
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 22px;
+}
+
