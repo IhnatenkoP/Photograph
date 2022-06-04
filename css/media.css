@@ -85,7 +85,35 @@
     }
 }
 @media only screen and (max-width: 820px) {
-
+    .main_banner ul{
+        right: inherit;
+    }
+    .main_banner {
+    padding-top: 70px;
+    }
+    .what_we_do .item{
+        max-width: 400px;
+    }
+    .photo img{
+        max-width: 400px;
+    }
+    .jungle {
+        height: 500px;
+    }
+    .partners {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mountain {
+        max-height: 400px;
+    }
+    .touch{
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+    input {
+        padding-left: 200px;
+    }
 }
 @media only screen and (max-width: 768px) {
 
