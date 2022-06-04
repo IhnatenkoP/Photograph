@@ -116,8 +116,31 @@
     }
 }
 @media only screen and (max-width: 768px) {
-
+    .what_we_do .item{
+        max-width: 380px;
+    }
+    .photo img{
+        max-width: 300px;
+    }
+    .jungle {
+        height: 400px;
+    }
+    .partners {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .mountain {
+        max-height: 400px;
+    }
+    .touch{
+        padding-bottom: 50px;
+        padding-top: 50px;
+    }
+    input {
+        padding-left: 150px;
+    }
 }
+
 @media only screen and (max-width: 428px) {
     header .d-flex{
         display: block;
