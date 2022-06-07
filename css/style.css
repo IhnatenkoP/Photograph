@@ -749,3 +749,52 @@ input {
     width: 15px;
     height: 15px;
 }
+
+.ui-accordion .ui-accordion-content {
+    padding: 0;
+    background-color: black;
+    margin: 30px 0 0 0;
+}
+.ui-widget-content {
+    border: none;
+    background-color: transparent;
+
+
+}
+.ui-accordion .ui-accordion-header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 5px 10px 5px 4px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    display: inline-flex;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+.ui-accordion .ui-accordion-header:before{
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 14px;
+    margin-right: 6px;
+
+}
+.ui-widget {
+    text-align: center;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover{
+    background-color: orange;
+}
+.ui-icon, .ui-widget-content .ui-icon{
+    background-image: none;
+
+
+}
