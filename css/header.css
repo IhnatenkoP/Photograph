@@ -1,0 +1,26 @@
+header {
+  background-color: #181818;
+  padding: 24px 0;
+}
+header ul {
+  list-style: none;
+}
+header ul li {
+  margin-left: 32px;
+}
+header ul li:last-of-type {
+  background: #FFFFFF;
+  border-radius: 14px;
+  display: inline-block;
+  padding: 9px 20px;
+  font-size: 16px;
+  color: #000000;
+}
+header ul li:last-of-type a {
+  text-decoration: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+}

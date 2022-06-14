@@ -1,0 +1,39 @@
+.partners {
+  max-height: 500px;
+  background-color: black;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.partners .container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.partners h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 42px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.partners p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #C0C0C0;
+  padding-bottom: 82px;
+}
+.partners img {
+  max-width: 150px;
+  display: block;
+}

@@ -1,0 +1,29 @@
+header {
+  background-color:#181818;
+  padding: 24px 0;
+  ul {
+    list-style: none;
+    li{
+      margin-left: 32px;
+
+      &:last-of-type {
+        background: #FFFFFF;
+        border-radius: 14px;
+        display: inline-block;
+        padding: 9px 20px;
+        font-size: 16px;
+        color: $white_color;
+
+
+        a {
+          text-decoration: none;
+          font-family: 'Poppins';
+          font-style: normal;
+          font-size: 15px;
+          line-height: 20px;
+          color: $white_color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,135 @@
+footer {
+  background-color: black;
+  padding-top: 100px;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 36px;
+
+    h4 {
+      margin-top: 20px;
+      margin-right: 270px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      color: #C0C0C0;
+    }
+
+    .item_block {
+      align-items: flex-start;
+      padding-right: 45px;
+
+      div {
+        margin-right: 55px;
+
+        h4 {
+          margin-top: 10px;
+          list-style: none;
+          text-decoration: none;
+          display: block;
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 20px;
+          color: #FFFFFF;
+        }
+
+        a {
+          font-family: 'Poppins';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          color: #C0C0C0;
+        }
+      }
+
+
+    }
+
+    .search {
+      padding-top: 36px;
+      border-bottom: 2px solid #E5E7EB;
+
+      h4 {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
+        color: #C0C0C0;
+
+      }
+
+      form {
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 40px;
+
+        input {
+          max-width: 458px;
+          height: 52px;
+          padding-left: 300px;
+          outline: none;
+          background: #F9FAFB;
+          border: 1px solid #E5E7EB;
+          border-radius: 12px;
+        }
+
+        button {
+          position: absolute;
+          top: 11px;
+          right: 5px;
+          width: 63px;
+          height: 30px;
+          border: none;
+          cursor: pointer;
+          background: #000000;
+          border-radius: 11px;
+        }
+
+      }
+
+    }
+
+    .social_box {
+      padding-top: 56px;
+      padding-bottom: 102px;
+
+      .social_p {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #C0C0C0;
+      }
+
+      .social_icones{
+        margin-right: 20px;
+        list-style: none;
+        text-decoration: none;
+      }
+    }
+  }
+}

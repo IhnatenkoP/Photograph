@@ -1,0 +1,123 @@
+footer {
+  background-color: black;
+  padding-top: 100px;
+}
+footer .footer_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  border-bottom: 2px solid #FFFFFF;
+  padding-bottom: 36px;
+}
+footer .footer_container h4 {
+  margin-top: 20px;
+  margin-right: 270px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+footer .footer_container .item_block {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding-right: 45px;
+}
+footer .footer_container .item_block div {
+  margin-right: 55px;
+}
+footer .footer_container .item_block div h4 {
+  margin-top: 10px;
+  list-style: none;
+  text-decoration: none;
+  display: block;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+footer .footer_container .item_block div a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #C0C0C0;
+}
+footer .footer_container .search {
+  padding-top: 36px;
+  border-bottom: 2px solid #E5E7EB;
+}
+footer .footer_container .search h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+footer .footer_container .search p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+footer .footer_container .search form {
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+footer .footer_container .search form input {
+  max-width: 458px;
+  height: 52px;
+  padding-left: 300px;
+  outline: none;
+  background: #F9FAFB;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+}
+footer .footer_container .search form button {
+  position: absolute;
+  top: 11px;
+  right: 5px;
+  width: 63px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  background: #000000;
+  border-radius: 11px;
+}
+footer .footer_container .social_box {
+  padding-top: 56px;
+  padding-bottom: 102px;
+}
+footer .footer_container .social_box p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+footer .footer_container .social_box p .social_icones {
+  margin-right: 20px;
+  list-style: none;
+  text-decoration: none;
+}

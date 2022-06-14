@@ -1,0 +1,89 @@
+.mountain {
+  background-image: url("../images/mountain.jpg");
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  padding-bottom: 71px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+.mountain h3 {
+  height: 20px;
+  left: 0%;
+  right: 31.33%;
+  top: calc(50% - 10px - 30px);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.mountain p {
+  height: 60px;
+  left: 0%;
+  right: 0.67%;
+  top: calc(50% - 30px + 10px);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #C0C0C0;
+}
+.mountain .container {
+  max-width: 287px;
+  margin: inherit;
+  padding-right: 62px;
+}
+.mountain ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+}
+.mountain ul li {
+  font-family: "Poppins";
+  line-height: 12px;
+  font-size: 12px;
+  margin-left: 16px;
+  color: white;
+}
+.mountain ul li:before {
+  content: "";
+  display: inline-block;
+  background-image: url("../images/icones/icon3.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  position: relative;
+  top: 6px;
+}
+.mountain ul li:nth-child(2):before {
+  background-image: url("../images/icones/icon2.svg");
+}
+.mountain ul li:nth-child(3):before {
+  background-image: url("../images/icones/icon.svg");
+  margin-right: 7px;
+  width: 32px;
+}
+.mountain ul li:last-of-type:before {
+  background-image: url("../images/icones/icon4.svg");
+  margin-right: 5px;
+  width: 10px;
+}

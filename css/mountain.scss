@@ -1,0 +1,80 @@
+
+.mountain{
+  background-image: url("../images/mountain.jpg");
+  background-size: cover;
+  height: 600px;
+  position: relative;
+  padding-bottom: 71px;
+  align-items: center;
+  display: flex;
+  justify-content: end;
+  h3 {
+    height: 20px;
+    left: 0%;
+    right: 31.33%;
+    top: calc(50% - 20px/2 - 30px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+   p{
+    height: 60px;
+    left: 0%;
+    right: 0.67%;
+    top: calc(50% - 60px/2 + 10px);
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+  }
+ .container{
+    max-width: 287px;
+    margin: inherit;
+    padding-right: 62px;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+    li {
+      font-family: 'Poppins';
+      line-height: 12px;
+      font-size: 12px;
+      margin-left: 16px;
+      color: white;
+      &:before{
+        content: "";
+        display: inline-block;
+        background-image: url('../images/icones/icon3.svg');
+        width: 16px;
+        height: 16px;
+        margin-right: 6px;
+        position: relative;
+        top: 6px;
+      }
+      &:nth-child(2):before {
+        background-image: url('../images/icones/icon2.svg');
+      }
+      &:nth-child(3):before {
+        background-image: url('../images/icones/icon.svg');
+        margin-right: 7px;
+        width:32px ;
+      }
+      &:last-of-type:before {
+        background-image: url('../images/icones/icon4.svg');
+        margin-right: 5px;
+        width: 10px;
+      }
+    }
+  }
+}

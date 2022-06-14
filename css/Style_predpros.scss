@@ -1,0 +1,48 @@
+@import "normalize";
+@import "owl.carousel";
+@import "style";
+@import "media";
+@import "owl.theme.default";
+@import "owl.carousel.min";
+@import "media-dist";
+@import "header";
+@import "main_section";
+@import "what_we_do_section";
+@import "sunset";
+@import "jungle";
+@import "mountain";
+@import "photo";
+@import "partners";
+@import "touch";
+@import "footer";
+$black_color:#000000;
+$white_color:#ffffff;
+$main_font:'Poppins';
+
+*{
+  padding: 0;
+  margin: 0;
+}
+.container {
+   max-width: 1200px;
+   margin: auto;
+ }
+.logo{
+  display: inline-block;
+  margin: 6px 0;
+}
+.d-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.text-center{
+  text-align: center;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.item_block{
+  align-items: flex-start;
+  padding-right: 45px;
+}
